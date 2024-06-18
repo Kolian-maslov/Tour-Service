@@ -1,0 +1,87 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0px 0px;
+    background: #d8d7d5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+:root{
+    --font-family: "Avenir Next Cyr", sans-serif;
+    --second-family: "Noto Serif Display", sans-serif;
+    --third-family: "Inter", sans-serif;
+}
+
+h1{
+    font-size: 32px;
+}
+
+p{
+    
+    font-size: 16px;
+}
+
+p2{
+    font-size: 14px;
+}
+
+.main-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    min-height: 400px;
+}
+
+
+
+.block-look{
+    display: block;
+    text-align: center;
+    margin: 80px 20px;
+}
+
+.image-frame{
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+
+
+
+.block-choose{
+    display:grid;
+    margin: 80px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.squares{
+    display: block;
+    gap: 40px;
+    margin: 80px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.square{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.square-image{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
