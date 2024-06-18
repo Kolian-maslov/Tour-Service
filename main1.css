@@ -80,8 +80,10 @@ p2{
     overflow: hidden;
     border-radius: 20px;
     margin-bottom: 20px;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    min-width:200px;
+    max-height: 400px;
+    min-height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
